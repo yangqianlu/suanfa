@@ -10,7 +10,6 @@ function sum2(n) {
       n = parseInt(n / 10);
       sum += value + n;
     }
-
     return sum;
   }
 
@@ -26,6 +25,3 @@ function sum2(n) {
     return n;
   };
   console.log(addDigits(9318));
-
-
- 

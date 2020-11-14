@@ -6,27 +6,9 @@
 // 输入: s = "paper", t = "title"
 // 输出: true
 
-function tongGou(s, t) {
-  let obj = {};
-  for (let i = 0; i < s.length; i++) {
-    let currentT = t[i];
-    let currentS = s[i];
-    console.log(currentS);
-    if (obj[currentS] && obj[currentS] !== currentT) {
-      return false;
-    } else {
-      obj[currentS] = currentT;
-    }
-  }
-  return true;
-}
-let s = "paper";
-let t = "title";
-console.log(tongGou(s, t));
-['e','g','g']
 
-let s = "paper";
-let t = "title";
+let s = "add";
+let t = "edd";
 var isIsomorphic2 = function(s, t) {
     for (let i = 0; i < s.length; i++) {
         if(s.indexOf(s[i]) != t.indexOf(t[i])){
