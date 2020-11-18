@@ -8,7 +8,6 @@ console.log(arr, '==arr==') // [1, 2]
 
 
 
-// join()
 // sort()
 // reverse()
 // concat()
