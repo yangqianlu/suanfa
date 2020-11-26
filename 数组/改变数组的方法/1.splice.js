@@ -5,18 +5,4 @@
 var arr = [1, 2, 3, 4, 5, 6]
 var res = arr.splice(2)
 console.log(res, '==res=='); // [3, 4, 5, 6]
-console.log(arr, '==arr==') // [1, 2]
-
-
-
-// sort()
-// reverse()
-
-// indexOf()和 lastIndexOf() （ES5新增）
-// forEach() （ES5新增）
-// map() （ES5新增）
-// filter() （ES5新增）
-// every() （ES5新增）
-// some() （ES5新增）
-// reduce()和 reduceRight() （ES5新增）
-
+console.log(arr, '==arr=='); // [1, 2]

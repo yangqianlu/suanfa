@@ -21,7 +21,9 @@ for (let i; i < items.length; i++) {
 // after
 items.forEach((item) => {
   if (item !== 'item1') {
-    copy.push(item)
+    copy.push({
+      name: item
+    })
   }
 })
 console.log(copy);
